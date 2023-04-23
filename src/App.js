@@ -31,7 +31,6 @@ function App() {
           <div style={{ width: '80%'}}>
             <UserSection />
             <Divider
-              variant='medium'
               style={{ margin: '5px 0' }}></Divider>
             <MiddleSection />
             <UserPosts />
