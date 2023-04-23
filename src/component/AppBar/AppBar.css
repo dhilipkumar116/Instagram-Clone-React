@@ -1,0 +1,28 @@
+:root{
+    --appbar-color : #f2f2f2;
+}
+.appbar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+    background-color: var(--appbar-color);
+}
+.appbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.logo {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    cursor: pointer;
+}
+hr {
+    width: 100%;
+    border-width: 1px;
+}

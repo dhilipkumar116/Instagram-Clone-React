@@ -1,0 +1,12 @@
+:root {
+    --primary-color : #4d94ff;
+    --white : #ffffff;
+}
+.input{
+    width: 30%;
+    padding: 10px 5px;
+    border-style: none;
+    border-radius: 7px;
+    outline: none;
+}
+

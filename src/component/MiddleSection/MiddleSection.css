@@ -1,0 +1,10 @@
+.middlesection-container{
+    display: flex;
+    justify-content: center;
+}
+.middlesection-container > div{
+    display: block;
+}
+.middlesection-container > div:not(:last-child) {
+    margin-right: 30px;
+}

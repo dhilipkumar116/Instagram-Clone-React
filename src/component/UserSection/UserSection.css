@@ -1,0 +1,25 @@
+
+.usersection-container {
+    display: flex;
+    width: 80%;
+    padding: 30px;
+}
+.usersection-container > div{
+    margin: 20px;
+}
+
+.user-image{
+    width: 130px;
+    height: 130px;
+}
+.user-image img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-content{
+    width: 60%;
+}
+
+.user-content > div,a,h5 {
+    margin: 10px;
+}
